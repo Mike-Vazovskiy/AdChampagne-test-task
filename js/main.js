@@ -11,7 +11,7 @@ let estimatedTotal = document.getElementById('estimated-total')
 
 let product = {
     name: `AIR JORDAN 1 RETRO HIGH "UNIVERSITY BLUE"`,
-    image: 'assets/images/Rectangle 1102.png',
+    image: 'assets/images/Rectangle_1102.png',
     price: `$${2}`,
     sizes: [
         'UK 5.5', 'UK 6', 'UK 6.5', 'UK 7', 'UK 7.5', 'UK 8', 'UK 8.5', 'UK 9', 'UK 9.5', 'UK 10', 'UK 10.5', 'UK 11', 'UK 11.5', 'UK 12', 'UK 13', 'UK 14',
