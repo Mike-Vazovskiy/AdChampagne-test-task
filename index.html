@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIR JORDAN 1 RETRO HIGH "UNIVERSITY BLUE"</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left-side">
+            <div id="menu" class="menu">
+                <img id="burger" class="burger"  src="assets/icons/burger.svg" alt="" onclick="openMenu()">
+                <img id="close" class="close" src="assets/icons/close.svg" alt="" onclick="closeModal()">
+            </div>
+            <span class="header-text">Foot Locker</span>
+        </div>
+        <div class="cart-icon">
+            <img id="cart-icon" src="assets/icons/cart.svg" alt="cart" onclick="openCart()">
+            <span id="cart-number" class="cart-number">1</span>
+        </div>
+    </header>
+    <div id="menu-list" class="menu-list">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Track My Order</a></li>
+        </ul>
+    </div>
+    
+    <div id="cart" class="cart cart-hide">
+        <p class="cart-header">Your cart</p>
+        <div id="product" class="added-product">
+            <div id="cart-product-img"></div>
+            <div id="cart-product-info" class="cart-product-info">
+                <p id="product-name" class="cart-product-name"></p>
+                <p class="cart-product-size"><span id="product-size"></span></p>
+                <p class="cart-product-total"><span id="product-total"></span></p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="estimated">
+                <p>Estimated total</p>
+                <p id="estimated-total">$0</p>
+            </div>
+            <button class="cart-checkout-btn">CHECK OUT</button>
+            <p class="cart-footer-text">Tax included. Shipping and discount calculated at checkout.</p>
+        </div>
+    </div>
+    
+    <div id="size-guide" class="size-guide">
+        <p class="guide-header">Size guide</p>
+        <img src="assets/images/size-guide.png" alt="Size Guide">
+    </div>
+
+    <div class="product">
+        <div class="product-head">
+            <img src="assets/images/logo-large-en-dark 1.png" alt="logo">
+            <img src="assets/icons/inst.png" alt="Instagram">
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <img id="slide-1" src="assets/images/Rectangle 1102.png" alt="slide-1">
+                <img id="slide-2" src="assets/images/Rectangle 1424.png" alt="slide-2">
+                <img id="slide-3" src="assets/images/Rectangle 1425.png" alt="slide-3">
+                <img id="slide-4" src="assets/images/Rectangle 1426.png" alt="slide-4">
+                <img id="slide-5" src="assets/images/Rectangle 1427.png" alt="slide-5">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1" class="slide active"></a>
+                <a href="#slide-2" class="slide"></a>
+                <a href="#slide-3" class="slide"></a>
+                <a href="#slide-4" class="slide"></a>
+                <a href="#slide-5" class="slide"></a>
+            </div>
+        </div>
+        <h2 class="product-name">
+            AIR JORDAN 1 RETRO HIGH "UNIVERSITY BLUE"
+        </h2>
+        <div class="offer">
+            <p class="old-price">
+                $55
+            </p>
+            <p class="new-price">
+                $2
+            </p>
+            <p class="discount">
+                98% sale
+            </p>
+        </div>
+        <div class="lifestyle">
+            <div>
+                <p class="lifestyle-text">Lifestyle</p>
+                <div class="livestyle-images">
+                    <img src="assets/images/Rectangle 1107.png" alt="lifestyle-1">
+                    <img src="assets/images/Rectangle 1108.png" alt="lifestyle-1">
+                    <img src="assets/images/Rectangle 1109.png" alt="lifestyle-1">
+                </div>
+            </div>
+        </div>
+        <div class="sizes">
+            <div class="sizes-header">
+                <p>Select Size</p>
+                <p class="size-guide-link" onclick="openSizeGuide()">Size Guide</p>
+            </div>
+            <div id="sizes-container" class="sizes-options"></div>
+        </div>
+        <div id="btn-group" class="btn-group">
+            <button class="buy" onclick="openCart()">BUY NOW</button>
+            <button id="add-to-cart-btn" class="add-to-cart-btn" onclick="addToCart()">Add to cart</button>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
